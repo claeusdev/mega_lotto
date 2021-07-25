@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    mega_lotto (0.1.0)
+    win_lotto (0.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -51,11 +51,11 @@ PLATFORMS
   x86_64-darwin-20
 
 DEPENDENCIES
-  mega_lotto!
   pry
   rake (~> 13.0)
   rspec (~> 3.0)
   rubocop (~> 1.7)
+  win_lotto!
 
 BUNDLED WITH
    2.2.17

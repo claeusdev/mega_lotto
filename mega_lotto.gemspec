@@ -3,7 +3,7 @@
 require_relative "lib/mega_lotto/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "mega_lotto"
+  spec.name          = "win_lotto"
   spec.version       = MegaLotto::VERSION
   spec.authors       = ["Nana Adjei Manu"]
   spec.email         = ["claeusdev@gmail.com"]
