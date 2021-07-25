@@ -15,7 +15,7 @@ module MegaLotto
     private
 
     def single_draw
-      rand(1..100)
+      rand(1..90)
     end
   end
 end
