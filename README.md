@@ -7,7 +7,7 @@ A very simple gem to generate random lottery numbers.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'mega_lotto'
+gem 'win_lotto'
 ```
 
 And then execute:
