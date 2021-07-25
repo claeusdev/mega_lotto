@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
 require_relative "mega_lotto/version"
-
+require_relative "mega_lotto/config"
+# Draw class
 module MegaLotto
   class Error < StandardError; end
-  # Your code goes here...
 
   # Simple class top generate the lotto numbers
   class Drawing
@@ -17,5 +17,17 @@ module MegaLotto
     def single_draw
       rand(1..90)
     end
+  end
+
+  def self.reset
+    @config = MegaLotto::Configuration
+  end
+
+  def self.config
+    @config ||= MegaLotto::Configuration.new
+  end
+
+  def self.configure
+    yield(config)
   end
 end
