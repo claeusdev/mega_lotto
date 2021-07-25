@@ -7,4 +7,3 @@ drawing = MegaLotto::Drawing.new.draw
 
 pp "**** WINNING NUMBERS FOR THIS WEEK ARE ****"
 pp drawing
-
