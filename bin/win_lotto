@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+require_relative "../lib/mega_lotto"
+
+pp "***** SPINNING WHEEL *****"
+drawing = MegaLotto::Drawing.new.draw
+
+pp "**** WINNING NUMBERS FOR THIS WEEK ARE ****"
+pp drawing
+
