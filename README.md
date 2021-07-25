@@ -20,7 +20,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+MegaLotto.new.draw #=> [23, 34, 67, 89, 34]
+```
 
 ## Development
 
